@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python Virtual Environments & Bytecode
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Production Build Outputs
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.production
+.env.local
+*.pem
+*.key
+
+# Large Geospatial & Imagery Data
+*.tif
+*.tiff
+*.geotiff
+*.SAFE/
+*.zip
+*.tar.gz
+*.nc
+*.h5
+data/cache/
+data/downloads/
+backend/data/cache/
+backend/data/downloads/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Test & Log Outputs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.vitest/
